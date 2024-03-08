@@ -1,0 +1,226 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 0; 
+    margin-bottom: 0; 
+    background-color: #f0f0f0;
+  }
+
+/*NavBar*/
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 20%);
+    position: fixed;
+    height: 60px;
+    width: 100%;
+  }
+
+.navbar a {
+    color: white;
+    padding: 40px 16px; 
+    text-decoration: none;
+    font-family: 'Tahoma', sans-serif;
+    
+  }
+
+.navbar a:hover {
+    background-color: #ddd; 
+    color: black; 
+  }
+
+.right {
+    padding: 20px 0px;
+    float: right;
+  }
+
+.left {
+    padding: 20px 0px;
+    float: left;
+  }
+
+/*headings*/
+
+h1{
+    Text-align: center;
+    font-family: 'Tahoma', sans-serif;
+    margin-top: 325px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Tahoma', sans-serif;
+    font-weight: 600;
+    color: #D8315B;
+}
+
+p {
+    font-family: 'Tahoma', sans-serif;
+}
+
+dt {
+    font-family: 'Tahoma', sans-serif;
+}
+
+dd {
+    font-family: 'Tahoma', sans-serif;
+}
+
+.front {
+    float: left; 
+    margin-right: 20px; 
+}
+
+.front img {
+    margin: 0;
+    padding-top: 50px;
+    width: 740px; 
+    height: auto; 
+}
+
+.rightbody {
+    margin: 0;
+    padding-top: 25px;
+    Text-align: center;
+    font-family: 'Tahoma', sans-serif;
+
+}
+
+.rightbody a {
+    color: rgb(254, 91, 91);
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px; 
+    font-family: 'Tahoma', sans-serif;
+    border: 2px solid #000; 
+}
+
+.rightbody a:hover {
+    background-color: #ddd; 
+    color: black; 
+    align-self: center;
+}
+
+/*About*/
+
+.me img{
+    float: left;
+    border-radius: 50%;
+    width: 40%; 
+    height: auto; 
+    padding-top: 200px;
+    padding-left: 200px;
+  }
+
+.about p {
+    float: right;
+    font-family: 'Tahoma', sans-serif;
+    text-align: left;
+    padding: 10px 20px; 
+    margin-top: 300px;
+    margin-right: 250px;
+  }
+
+.icon img {
+    width: 5%; 
+    height: auto; 
+    padding: 10px 1px; 
+    margin-top: 100px; 
+    margin-right: 20px;
+    float: center;
+}
+
+
+/*Playtest*/
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+  
+
+
+.column img {
+    padding-top: 130px;
+    margin-left: 50px;
+    width: 80%; 
+    height: auto; 
+}
+
+.column p {
+    padding-top: 10px;
+}
+
+.column h2 {
+    padding-top: 120px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+/*Genres*/
+
+.list p {
+    text-align: center;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.list {
+    text-align: center;
+}
+
+ul.ul {
+    display: inline-block;
+    text-align: left;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.genre-container {
+    text-align: center;
+    display: block;
+    /* Centers the 3 images on the page */
+ }
+ 
+.genre-images {
+    padding-top: 50px;
+     display: inline-block;
+     text-align: center;
+     /* Displays images in a line */
+ }
+ 
+ 
+ .placeholder{
+     position: relative;
+     display: inline-block;
+ }
+
+ .placeholder .centered-g101{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);/* Puts text in the middle of the pictures */
+}
+
+.heading h2{
+    margin-top: 0px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+/*family*/
+
+
+
